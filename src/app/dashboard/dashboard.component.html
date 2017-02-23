@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="jumbotron">
+    <ul>
+      <li class="alert alert-info" *ngFor="let user of users">
+        <div class="col-xs-4">{{user.name}}</div>
+        <div class="col-xs-4">{{user.username}}</div>
+        <div class="col-xs-4">{{user.email}}</div>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+#myImg {
+    width:15%;
+    min-width: 200px;
+    margin-top: 40px;
+}
+
+.myPanel {
+    width:65%;
+    margin:50px auto;
+}
+
+span {
+    margin-right: 15px;
+}
+
+@media (max-device-width: 480px) {
+    .myPanel {
+        width:95%;
+    }
+
+}
